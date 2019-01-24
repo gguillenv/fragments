@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".Descripcion_heroeFrag">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spiderman"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:layout_marginTop="5dp" android:layout_marginStart="132dp" android:id="@+id/headerHeroe"/>
+    <ImageView
+            android:src="@drawable/spidi"
+            android:layout_width="138dp"
+            android:layout_height="105dp" android:layout_alignParentStart="true"
+            android:layout_marginStart="22dp" android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" android:id="@+id/fotoHeroe" android:layout_marginTop="53dp"
+            android:layout_marginLeft="22dp"/>
+    <TextView
+            android:text="Super Poder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" android:layout_alignParentTop="true" android:layout_marginEnd="97dp"
+            android:id="@+id/superPoder" android:layout_marginTop="80dp" android:layout_marginRight="97dp"/>
+    <TextView
+            android:text="Identidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" android:layout_alignParentTop="true" android:layout_marginEnd="115dp"
+            android:id="@+id/idenHeroe" android:layout_marginTop="131dp" android:layout_marginRight="115dp"/>
+
+</RelativeLayout>
